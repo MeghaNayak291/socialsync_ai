@@ -1,0 +1,30 @@
+# Environment files
+.env
+*.env
+
+# Virtual environment
+.venv/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Backend pycache
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+
+# Backend temp media
+backend/media_temp/
+
+# Backend database
+backend/autopost.db
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
